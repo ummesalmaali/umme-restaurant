@@ -13,7 +13,6 @@ const photos = [
   images.gallery02,
   images.gallery03,
   images.gallery04,
-  images.gallery05,
 ];
 
 const Gallery = () => {
@@ -54,7 +53,7 @@ const Gallery = () => {
             );
           })}
         </div>
-        <div className="app__gallery-images_arrow">
+        <div className="app__gallery-images_arrows">
           <BsArrowLeftShort
             className="gallery__arrow-icon"
             onClick={() => scroll("left")}
